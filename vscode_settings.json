@@ -1,0 +1,176 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "[prisma]": {
+      "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "yinfei.luahelper"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "application.shellEnvironmentResolutionTimeout": 15,
+  "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+  "aws.suppressPrompts": {
+    "codeWhispererConnectionExpired": true
+  },
+  "aws.telemetry": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "dotenv.enableAutocloaking": false,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    120
+  ],
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": []
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "files.hotExit": "onExitAndWindowClose",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "html.format.indentInnerHtml": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "lua-local.interpreter": "lua5.1",
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.useEditorConfig": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "redhat.telemetry.enabled": false,
+  "sonarlint.rules": {
+    "typescript:S2814": {
+      "level": "off"
+    },
+    "typescript:S6544": {
+      "level": "off"
+    }
+  },
+  "stylelint.config": null,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "js",
+    "typescript",
+    "typescriptreact"
+  ],
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
+    "FIG_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "terminal.integrated.fontFamily": "monospace",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.mac": "/Users/felipe.f.santos/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.minikube-path.mac": "/Users/felipe.f.santos/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ]
+}
