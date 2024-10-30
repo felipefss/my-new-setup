@@ -2,6 +2,7 @@
 
 init() {
   echo "Starting configuration for macOS"
+  configure_keyboard
   install_homebrew
   install_whatsapp
   install_amazon_q
@@ -10,6 +11,16 @@ init() {
 
 finish() {
   configure_dock
+}
+
+configure_keyboard() {
+  echo "Configuring keyboard"
+
+  defaults write NSGlobalDomain "ApplePressAndHoldEnabled" -bool "false";
+
+  # Use F5 to reload page in Chrome
+  defaults write com.google.Chrome NSUserKeyEquivalents -dict-add "Reload This Page" "\\Uf708";
+
 }
 
 install_homebrew() {
