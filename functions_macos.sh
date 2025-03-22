@@ -107,6 +107,13 @@ install_vscode() {
     rm VSCode.zip
 }
 
+copy_vscode_settings() {
+    if command -v code &> /dev/null ; then
+        echo "Copying Visual Studio Code settings"
+        cp "$DOTFILES/vscode_settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+    fi
+}
+
 install_font_jetbrains-mono() {
     echo "Installing JetBrains Mono font"
 

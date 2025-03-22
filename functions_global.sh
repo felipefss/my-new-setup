@@ -35,10 +35,3 @@ install_vscode_extensions() {
         cat "$DOTFILES/vscode_extensions.txt" | xargs -L 1 code --install-extension
     fi
 }
-
-copy_vscode_settings() {
-    if command -v code &> /dev/null ; then
-        echo "Copying Visual Studio Code settings"
-        cp "$DOTFILES/vscode_settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-    fi
-}

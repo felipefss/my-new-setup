@@ -1,10 +1,9 @@
 cweijan.vscode-mysql-client2
 PKief.material-icon-theme
-amazonwebservices.codewhisperer-for-command-line-companion
+AmazonWebServices.amazon-q-vscode
 wmaurer.change-case
 clinyong.vscode-css-modules
 ms-python.black-formatter
-ms-azuretools.vscode-docker
 dotenv.dotenv-vscode
 dbaeumer.vscode-eslint
 expo.vscode-expo-tools
@@ -13,7 +12,6 @@ waderyan.gitblame
 mhutchie.git-graph
 ecmel.vscode-html-css
 ms-python.isort
-Orta.vscode-jest
 ritwickdey.LiveServer
 ms-vsliveshare.vsliveshare
 christian-kohler.npm-intellisense
@@ -31,3 +29,5 @@ Gruntfuggly.todo-tree
 kakumei.ts-debug
 styled-components.vscode-styled-components
 redhat.vscode-yaml
+Postman.postman-for-vscode
+eamodio.gitlens
