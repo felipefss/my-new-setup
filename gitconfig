@@ -1,0 +1,34 @@
+[column]
+        # Sorts lists by the most recent commit date
+        ui = auto
+[branch]
+        # Put branch names in column format
+        sort = -committerdate
+[tag]
+        # Sort tags in a smart way
+        sort = version:refname
+[init]
+        defaultBranch = main
+[diff]
+        # Better diff algorithm
+        algorithm = histogram
+        # Makes git diff colorfull
+        colorMoved = plain
+        # Adds prefix to the header output so it's easier to understand where a specific diff comes from
+        mnemonicPrefix = true
+        # Detects if a file has been renamed
+        renames = true
+[push]
+        # This is already the default push. Pushes the current branch name to the default
+        default = simple
+        # Automatically sets the upstream of the newly created current branch
+        autoSetupRemote = true
+        # Push all local tags that aren't on the server
+        followTags = true
+[fetch]
+        # All the below sync local with the server if a branch is deleted in the server
+        prune = true
+        pruneTags = true
+        all = true
+[core]
+        editor = vim

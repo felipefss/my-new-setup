@@ -16,6 +16,7 @@ else
 fi
 
 init
+config_git
 install_vim
 install_nvm
 install_slack

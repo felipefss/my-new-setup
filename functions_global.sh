@@ -35,3 +35,16 @@ install_vscode_extensions() {
         cat "$DOTFILES/vscode_extensions.txt" | xargs -L 1 code --install-extension
     fi
 }
+
+config_git() {
+    if command -v git &> /dev/null ; then
+        echo "Installing git"
+
+        sudo add-apt-repository ppa:git-core/ppa
+        sudo apt update; sudo apt install -y git
+    fi
+
+    echo "Copying git config"
+
+    cp gitconfig ~/.gitconfig
+}

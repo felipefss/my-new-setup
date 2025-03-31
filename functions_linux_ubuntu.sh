@@ -34,7 +34,7 @@ install_zsh() {
 	sudo apt install zsh
 	
 	# Make it the default shell
-	sudo chsh -s $(which zsh)
+	chsh -s $(which zsh)
 }
 
 install_sublime_text() {
@@ -55,7 +55,7 @@ install_font_jetbrains-mono() {
 		--output Jetbrains.zip
 	
 	unzip Jetbrains.zip -d ./jetbrains
-	mv jetbrains/fonts ~/.local/share/fonts
+	cp jetbrains/fonts ~/.local/share/fonts
 	fc-cache -f -v
 	
 	# Clean up
