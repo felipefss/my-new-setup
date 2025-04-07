@@ -4,7 +4,6 @@ init() {
 	echo "Starting configuration for Ubuntu"
 	
 	install_apt_packages
-	install_zsh
 }
 
 fix_cedilha() {
@@ -55,7 +54,7 @@ install_font_jetbrains-mono() {
 		--output Jetbrains.zip
 	
 	unzip Jetbrains.zip -d ./jetbrains
-	cp jetbrains/fonts ~/.local/share/fonts
+	cp -arv jetbrains/fonts/* ~/.local/share/fonts
 	fc-cache -f -v
 	
 	# Clean up
